@@ -465,6 +465,7 @@ hr {
 .satguru p {
   font-size: 1.2rem;
   line-height: normal;
+  color: #636262;
 }
 
 @-webkit-keyframes circleMove {
@@ -1522,12 +1523,15 @@ button.slick-next.slick-arrow svg {
   margin-top: -14rem;
 }
 
+.text-greeny {
+  color: #38AC4B !important;
+}
 .text-blue {
-  color: #1E5192;
+  color: #1E5192 !important;
 }
 
 .text-red {
-  color: #DB3A49;
+  color: #DB3A49 !important;
 }
 
 .text-pink {
