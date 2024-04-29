@@ -14,7 +14,7 @@ body {
 }
 
 .brand-logo {
-  width: 250px;
+  width: 300px;
   transition: width 500ms ease-in-out;
 }
 
@@ -39,18 +39,18 @@ body {
   background-color: #1D2352 !important;
   color: white;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 0;
+  padding: .5rem 0rem;
   transition: padding 500ms ease-in-out;
 }
 
 .darkHeader .brand-logo {
-  width: 196px;
+  width: 220px;
   transition: width 500ms ease-in-out;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: .5rem 1.0rem;
-  font-size: 1.0rem;
+  padding: .5rem .8rem;
+  font-size: 1.3rem;
 }
 
 
@@ -95,6 +95,7 @@ body {
   --bs-btn-disabled-border-color: #F7941D;
   border-radius: 50px;
   padding: 8px 32px;
+  font-size: 1.3rem;
 
 }
 
@@ -1039,7 +1040,7 @@ button.slick-next.slick-arrow svg {
 
 .events .mask {
   position: absolute;
-  bottom: 0px;
+  bottom: -2px;
   left: 0px;
   width: 100%;
   z-index: 10;
@@ -1732,6 +1733,19 @@ button.slick-next.slick-arrow svg {
   margin-top: -150px;
   position: relative;
 }
+.contact-listing a{
+  transition: all 0.5s ease-out;
+}
+.contact-listing .text-quote{
+  transition: all 0.5s ease-out;
+  color: #ffffff !important;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.contact-listing a:hover{
+  color: #404baf !important;
+  transition: all 0.5s ease-out;
+}
 .contact-faq{
     padding: 4rem 0rem;
 }
@@ -2399,6 +2413,10 @@ button.slick-next.slick-arrow svg {
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .brand-logo {
+    width: 250px;
+    transition: width 500ms ease-in-out;
+  }
   .Testimonial{
     margin-top: 0;
   }
