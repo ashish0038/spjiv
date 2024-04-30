@@ -62,7 +62,10 @@ $('.eventBox').slick({
 
 function carousel() {
   $.js('ShortNotes-carousel').slick({
-    infinite: false,
+    focusOnSelect: true,
+    centerMode: true,
+    centerPadding: '10px',
+    infinite: true,
     arrows: false,
     dots: false,
     autoplay: true,

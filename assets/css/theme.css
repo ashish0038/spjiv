@@ -1295,7 +1295,79 @@ button.slick-next.slick-arrow svg {
   text-align: center;
 }
 
-.ShortNotes-carousel__item-inner .year:after {
+/* .ShortNotes-carousel__item.slick-center .ShortNotes-carousel__item-inner  .year:after { */
+
+.ShortNotes-carousel__item.slick-center .ShortNotes-carousel__item-inner  .year:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0%;
+  top: -118px;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img//ship.gif');
+  transform: translate3d(0px, 0px, 0px);
+  animation: slide2 2s  alternate;
+  transition: transform 2s ease-in-out;
+}
+
+@keyframes slide {
+  from { transform: translate3d(-472px, 0px, 0px); }
+  to { transform: translate3d(0px, 0px, 0px); }
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translate3d(-472px, -10px, 0px);
+    transition-delay: 1s;
+  }
+  20% {
+    transform: translate3d(-412px, 17px, 0px);
+    transition-delay: 1s;
+  }
+  30% {
+    transform: translate3d(-332px, 39px, 0px);
+    transition-delay: 1s;
+  }
+  40% {
+    transform: translate3d(-260px, 22px, 0px);
+    transition-delay: 1s;
+  }
+  50% {
+    transform: translate3d(-210px, -10px, 0px);
+    transition-delay: 1s;
+  }
+  60% {
+    transform:translate3d(-130px, 11px, 0px);
+    transition-delay: 1s;
+  }
+  70% {
+    transform: translate3d(-50px, 6px, 0px);
+    transition-delay: 1s;
+  }
+  80% {
+    transform: translate3d(-10px, 0px, 0px);
+    transition-delay: 1s;
+  }
+  90% {
+    transform: translate3d(0px, 0px, 0px);
+    transition-delay: 1s;
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    transition-delay: 1s;
+  }
+}
+@keyframes hat {
+  0% {
+    transform: translateZ(30px) translateX(-5px) rotateY(-20deg);
+  }
+  100% {
+    transform: translateZ(30px) translateX(0) rotateY(20deg);
+  }
+}
+/* 
+.ShortNotes-carousel__item.slick-center .ShortNotes-carousel__item-inner  .year:after {
   content: "";
   position: absolute;
   display: block;
@@ -1309,7 +1381,7 @@ button.slick-next.slick-arrow svg {
   transform: translate(-50%, -44px);
   animation: shortpulse 1.5s infinite;
   border: 8px solid #FFCC00;
-}
+} */
 
 .shortDecBox {
   background-image: url('../img/timeline_bg.svg');
