@@ -2066,13 +2066,25 @@ button.slick-next.slick-arrow svg {
 
 
 /* satguru  */
+.satguru-card{
+  text-align: center;
+}
 .satguru-card img{
   border-radius: 100px;
+  margin: 1rem auto;
+}
+.satguru-card p{
+  color: #201f1e;
+  font-size: 1.2rem;
 }
 .satguru-card.slick-slide.slick-active.slick-center img {
     border: 5px solid #F77301;
 }
-
+.satguruMahima p {
+  font-size: 1.2rem;
+  color: #1e2352;
+  line-height: 2rem;
+}
 
 .magazine-layout {
   margin-top: 3rem;
