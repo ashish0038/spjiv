@@ -300,17 +300,45 @@ hr {
 }
 
 .slider-caption h4 {
-  font-size: 4rem;
+  font-size: 3.3rem;
   margin-bottom: 1rem;
   font-weight: 900;
   line-height: 4rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
+  color: #fdf10d;
+}
+.slider-caption .h-lh-text{
+  font-size: 2.3rem;
+}
+.slider-caption .h-sl-text{
+  font-size: 1.3rem;
+  background-color: #dc3545;
+  padding: 4px 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.slider-caption .h-s-text{
+  font-size: 1.3rem;
+  background-color: #fff;
+  padding: 0px 8px;
+  color: #f25814;
+  margin-bottom: 8px;
+  display: inline-flex;
+}
+.slider-caption .h-l-text{
+  font-size: 2.5rem;
+  background-color: #232856;
+  padding: 4px 16px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: inline-flex;
 }
 
 .slider-caption p {
   margin-bottom: 1rem;
-  font-size: 1.2rem;
-  color: #ecd1ba;
+  font-size: 1.4rem;
+  color: #fcfcfc;
 }
 
 .slider-caption .slider-btn {
@@ -1125,7 +1153,7 @@ button.slick-next.slick-arrow svg {
 
 .reviewItem {
   background-color: #FFF6F4;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: 1rem;
 }
 
@@ -1146,6 +1174,7 @@ button.slick-next.slick-arrow svg {
 
 .reviewItem .reviewDes {
   font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .reviewMainTitle {
@@ -1677,14 +1706,14 @@ button.slick-next.slick-arrow svg {
 
 .podcast-entry .image {
   background-size: contain;
-  background-position: center center;
+  background-position: center 2rem;
   background-repeat: no-repeat;
-  height: 79px;
+  height: 58px;
 }
 
 @media (min-width: 768px) {
   .podcast-entry .image {
-    width: 79px;
+    width: 58px;
     height: auto;
   }
 }
@@ -2049,23 +2078,27 @@ button.slick-next.slick-arrow svg {
 
 .Testimonial .TestimonialSliderItem {
   position: relative;
-  padding: 6rem 2rem;
+  padding: 6rem .5rem;
   text-align: left;
   font-size: 1.2rem;
   font-weight: 100;
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 .TestimonialSliderItem p {
   color: #7b5422;
   min-height: 160px;
   background-color: rgb(255 242 225);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #efdbc0;
 }
 
 .TestimonialSlider {
-  padding: 0rem 3rem;
+  padding: 0rem 5rem;
 }
 
 .TestimonialSliderItem h5 {
@@ -2331,6 +2364,26 @@ button.slick-next.slick-arrow svg {
 
 /* satguru infinity */
 
+/* sahitya  */
+.sahitya-section{
+
+}
+.sahitya-section .podcast-entry .text .btn-download {
+  font-size: 1.30rem;
+  color: #E91E63;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  margin-top: 1rem;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.sahitya-section .podcast-entry .text .btn-download svg{
+  margin-left: 1rem;
+}
+/* sahitya end */
+
 /* common title  */
 .common-hero {
   background-color: #1e2352;
@@ -2497,6 +2550,9 @@ button.slick-next.slick-arrow svg {
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .slider-caption::before{
+    content: none;
+  }
   .brand-logo {
     width: 250px;
     transition: width 500ms ease-in-out;
@@ -2532,20 +2588,35 @@ button.slick-next.slick-arrow svg {
   }
 
   .slider-caption h4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: 900;
     line-height: 3rem;
     margin-top: 0rem;
+    color: #fdf10d;
   }
-
+  .slider-caption .h-s-text{
+    font-size: 1.2rem;
+  }
+  .slider-caption p{
+    font-size: 1.2rem;
+  }
+  .slider-caption .slider-btn{
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .slider-caption .h-l-text{
+    font-size: 1.2rem;
+  }
   #sliderspjv .carousel-indicators {
     right: 0;
     left: 0;
     bottom: 0%;
     transform: translate(0%, 0%);
   }
-
+  #sliderspjv .order-2 img{
+    height: 200px;
+  }
   .quicklinks {
     padding: 2rem 1rem;
   }
