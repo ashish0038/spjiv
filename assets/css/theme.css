@@ -2088,13 +2088,13 @@ button.slick-next.slick-arrow svg {
 
 .TestimonialSliderItem p {
   color: #7b5422;
-  min-height: 160px;
+  min-height: 350px;
   background-color: rgb(255 242 225);
   padding: 1rem 1rem;
   border-radius: 16px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   border: 1px solid #efdbc0;
 }
 
