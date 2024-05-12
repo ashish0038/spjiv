@@ -136,7 +136,7 @@ $('.eventsLesson').slick({
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
   speed: 300,
   arrows: true,
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 3,
   responsive: [
     {

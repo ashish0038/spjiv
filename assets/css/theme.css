@@ -1996,6 +1996,14 @@ button.slick-next.slick-arrow svg {
   margin: 0 10px 10px 0;
 }
 
+#schedule .schedule-item .text-ans {
+  color: #686868;
+  line-height: 1.8rem;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 #schedule .schedule-item .speaker img {
   height: 100%;
   -webkit-transform: translateX(-50%);
