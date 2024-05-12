@@ -2086,9 +2086,7 @@ button.slick-next.slick-arrow svg {
   padding-top: 1rem;
 }
 
-.TestimonialSliderItem p {
-  color: #7b5422;
-  min-height: 350px;
+.TestimonialSliderItem .tesReviewBox{
   background-color: rgb(255 242 225);
   padding: 1rem 1rem;
   border-radius: 16px;
@@ -2096,6 +2094,19 @@ button.slick-next.slick-arrow svg {
   justify-content: center;
   align-items: start;
   border: 1px solid #efdbc0;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+.TestimonialSliderItem .TestimonialTag{
+  border: 1px solid #efdbc0;
+  color: #f7951d;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 60px;
+  font-weight: 500;
+}
+.TestimonialSliderItem p {
+  color: #7b5422;
 }
 
 .TestimonialSlider {
