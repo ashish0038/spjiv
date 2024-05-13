@@ -2687,6 +2687,14 @@ button.slick-next.slick-arrow svg {
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .satguruMahimaPost .post{
+    width: 90%;
+  }
+  .satguruMahimaPost .imgBox.leftBox , .satguruMahimaPost .imgBox.rightBox{
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
   #sliderspjv .carousel-control-next, #sliderspjv .carousel-control-prev{
     width: 16%;
   }
