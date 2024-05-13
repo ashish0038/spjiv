@@ -68,7 +68,7 @@ function carousel() {
     infinite: true,
     arrows: false,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     speed: 1100,
     slidesToShow: 3,
     slidesToScroll: 3,

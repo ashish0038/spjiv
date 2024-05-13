@@ -313,7 +313,7 @@ hr {
 }
 .slider-caption .h-sl-text{
   font-size: 1.3rem;
-  background-color: #dc3545;
+  background-color: #1e2352;
   padding: 4px 16px;
   color: #ffffff;
   margin-bottom: 8px;
@@ -328,7 +328,7 @@ hr {
 }
 .slider-caption .h-l-text{
   font-size: 2.5rem;
-  background-color: #232856;
+  background-color: #168a38;
   padding: 4px 16px;
   color: #ffffff;
   font-weight: bold;
@@ -1239,7 +1239,7 @@ button.slick-next.slick-arrow svg {
   top: 0;
   height: 100%;
   width: 6.9444%;
-  background-color: #1e2352;
+  background-color: #1e235200;
   z-index: 3;
   width: 6.9444%;
 }
@@ -1317,7 +1317,7 @@ button.slick-next.slick-arrow svg {
   display: table;
   letter-spacing: 0px;
   padding: 1.6rem 0rem 0.6rem 0rem;
-  background-color: #1c2352;
+  background-color: #1c235200;
   z-index: 1;
   position: relative;
   margin: 0px 0px 5px 0px;
@@ -1332,14 +1332,16 @@ button.slick-next.slick-arrow svg {
   position: absolute;
   display: block;
   left: 0%;
-  top: -118px;
+  top:-125px;
   height: 125px;
   width: 125px;
   background-image: url('../img//ship.gif');
   transform: translate3d(0px, 0px, 0px);
-  animation: slide2 2s  alternate;
-  transition: transform 2s ease-in-out;
+  animation: slide2 8s  alternate;
+  transition: transform 8s ease-in-out;
+ 
 }
+
 
 @keyframes slide {
   from { transform: translate3d(-472px, 0px, 0px); }
@@ -1417,7 +1419,7 @@ button.slick-next.slick-arrow svg {
   background-image: url('../img/timeline_bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3rem;
+  padding: 3rem 2rem;
   position: relative;
   z-index: 0;
   margin: 0px 35px -47px 13px;
@@ -1449,7 +1451,7 @@ button.slick-next.slick-arrow svg {
 
 .ShortNotes-carousel__item-inner p {
   color: white;
-  width: 84%;
+  width: 100%;
   font-weight: 400;
   margin-bottom: 15px;
   font-size: 1.2rem;
