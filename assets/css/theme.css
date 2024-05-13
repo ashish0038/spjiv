@@ -469,9 +469,9 @@ hr {
 }
 
 .news p {
-  white-space: nowrap;
+  /* white-space: nowrap;
   animation: marquee 10s linear infinite;
-  max-width: none;
+  max-width: none; */
   margin: 0;
 }
 
