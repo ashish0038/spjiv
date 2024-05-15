@@ -988,7 +988,14 @@ hr {
 /*  infinity satguru */
 
 /* single satguru bitak */
-
+.satguruMahima .text-justify{
+  text-align: justify;
+    border-right: 1px solid #ddd;
+    padding: 0 2rem;
+}
+.satguruMahima .text-justify:last-child{
+  border: none;
+}
 .satguruMahimaPost h2{
 
 }
@@ -1013,7 +1020,7 @@ hr {
 .satguruMahimaPost p{
   line-height: 1.5em;
   font-size: 1.3rem;
-  color: #7d7d7d;
+  color: #6e6e6e;
   font-weight: 100;
   text-align: justify;
 }
@@ -2324,7 +2331,7 @@ button.slick-next.slick-arrow svg {
 }
 .satguruMahima p {
   font-size: 1.2rem;
-  color: #1e2352;
+  color: #6e6e6e;
   line-height: 2rem;
 }
 
@@ -2410,8 +2417,9 @@ button.slick-next.slick-arrow svg {
 
 .article-excerpt,
 .article-creditation {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 1.4;
+  color: #6e6e6e;
 }
 .article-excerpt p + p,
 .article-creditation p + p {
