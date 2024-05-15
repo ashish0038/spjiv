@@ -170,9 +170,10 @@ $('.eventsLesson').slick({
 //TestimonialSlider
 
 $('.TestimonialSlider').slick({
+  adaptiveHeight: true,
   centerMode: false,
   centerPadding: '0px',
-  dots: true,
+  dots: false,
   infinite: true,
   prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',

@@ -2228,8 +2228,13 @@ button.slick-next.slick-arrow svg {
   border: 1px solid #efdbc0;
   margin-bottom: 1rem;
   flex-direction: column;
-  min-height: 450px;
 }
+.TestimonialSlider .slick-slide {
+  height: 0px!important;
+ }
+ .TestimonialSlider .slick-slide.slick-active {
+    height: 100% !important;  
+ }
 .TestimonialSliderItem .TestimonialTag{
   border: 1px solid #efdbc0;
   color: #f7951d;
