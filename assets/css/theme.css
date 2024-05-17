@@ -94,7 +94,7 @@ body {
   --bs-btn-disabled-bg: #F7941D;
   --bs-btn-disabled-border-color: #F7941D;
   border-radius: 50px;
-  padding: 8px 32px;
+  padding: 8px 24px;
   font-size: 1.3rem;
 
 }
@@ -2547,6 +2547,85 @@ button.slick-next.slick-arrow svg {
     
   }
 /* raheni infinity */
+
+/* google translated dropdown */
+#google_translate_element {
+  position: relative
+}
+#google_translate_element span {
+  display: none !important;
+}
+#google_translate_element:after {
+  content: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1e2352;
+  position: absolute;
+  z-index: 1;
+  height: 40%;
+}
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+.goog-te-gadget {
+  font-size: 0px !important;
+  color: #1e2352;
+  white-space: nowrap;
+}
+.skiptranslate:not(.goog-te-gadget) {
+  /* display: none !important; */
+}
+.skiptranslate iframe#\:2\.container{
+  display: none !important;
+}
+.goog-te-gadget-simple{
+  border-color: #1e2352 !important;
+  background-color: #1e2352 !important;
+}
+.goog-te-gadget img{
+  background-image: none !important;
+  background: url('../img/Translate_lang.svg') !important;
+  background-position: center !important;
+  background-size: contain !important;
+  width: 24px;
+  height: 26px;
+  background-repeat: no-repeat !important;
+}
+.skiptranslate .indicator{}
+.skiptranslate .text{
+  color: #1e2352;
+  background: #FFF;
+  font-family: nato;
+ font-size: 14pt;
+}
+body{
+  top:0 !important;
+}
+.goog-te-gadget .goog-te-combo {
+  background-color: #1e2352;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.goog-te-gadget .goog-te-combo:focus-visible{
+  outline: none !important;
+}
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  visibility: hidden !important;
+}
+/* Disable google translate original text tooltips */
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* end of google translate dropdown */
 
 /* common title  */
 .common-hero {

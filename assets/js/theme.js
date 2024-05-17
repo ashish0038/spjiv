@@ -260,3 +260,8 @@ $('.satgure-for').slick({
   ]
 });
 	
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+      pageLanguage: '/auto/', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, includedLanguages: 'hi,gu,en,ne',
+  }, 'google_translate_element');
+}
