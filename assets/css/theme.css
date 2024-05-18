@@ -1107,6 +1107,20 @@ hr {
 .thankyouBox p{
   text-align: center;
 }
+.satguruMahimaLang .nav-link{
+  font-size: 1.2rem;
+  border: 1px solid transparent;
+}
+.satguruMahimaLang .nav-link.active{
+  background-color: #fff6f4;
+    color: #FF5701;
+    border: 1px solid #FF5701;
+    border-radius: 2px;
+}
+.satguruMahimaLang .nav-link span{
+  display: block;
+  font-size: 1.8rem;
+}
 /* satguru bitak infinity */
 
 /*   events */
