@@ -1084,7 +1084,7 @@ hr {
 	height: 100%;
 	object-fit: cover;
 	filter: url("#watercolor");
-  animation-duration: 2ms;
+  animation-duration: 8ms;
 }
 .satguruMahimaPost .h-s-text {
   font-size: 1.3rem;
@@ -1092,7 +1092,7 @@ hr {
   padding: 0px 8px;
   color: #f25814;
   margin-bottom: 8px;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 .thankyouBox{
   text-align: center;
