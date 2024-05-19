@@ -63,15 +63,17 @@ $('.eventBox').slick({
 function carousel() {
   $.js('ShortNotes-carousel').slick({
     focusOnSelect: true,
-    centerMode: true,
+    centerMode: false,
     centerPadding: '10px',
-    infinite: true,
-    arrows: false,
+    infinite: false,
+    prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
+    arrows: true,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     speed: 1100,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 800,
@@ -180,7 +182,7 @@ $('.TestimonialSlider').slick({
   speed: 300,
   arrows: true,
   slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1024,
