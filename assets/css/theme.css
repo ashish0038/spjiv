@@ -313,16 +313,16 @@ hr {
 }
 .slider-caption .h-sl-text{
   font-size: 1.3rem;
-  background-color: #1e2352;
+  background-color: #fff318;
   padding: 4px 16px;
-  color: #ffffff;
+  color: #dc3545;
   margin-bottom: 8px;
 }
 .slider-caption .h-s-text{
   font-size: 1.3rem;
-  background-color: #fff;
+  background-color: #1e2352;
   padding: 0px 8px;
-  color: #f25814;
+  color: #ffffff;
   margin-bottom: 8px;
   display: inline-flex;
 }
@@ -344,8 +344,13 @@ hr {
 
 .slider-caption .slider-btn {
   margin-top: 2rem;
+  background-color: #1e2352;
 }
-
+.slider-caption .slider-btn:hover{
+  background-color: #ffffff;
+  color: #f77300 !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 #sliderspjv .carousel-indicators {
   right: auto;
   left: 5%;
