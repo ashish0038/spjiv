@@ -1531,7 +1531,7 @@ button.slick-next.slick-arrow svg {
 
 /* .ShortNotes-carousel__item.slick-center .ShortNotes-carousel__item-inner  .year:after { */
 
-.ShortNotes-carousel__item.slick-center .ShortNotes-carousel__item-inner  .year:after {
+.ShortNotes-carousel__item.slick-current.slick-active .ShortNotes-carousel__item-inner  .year:after {
   content: "";
   position: absolute;
   display: block;
@@ -1539,13 +1539,18 @@ button.slick-next.slick-arrow svg {
   top:-125px;
   height: 125px;
   width: 125px;
-  background-image: url('../img//ship.gif');
+  background-image: url('../img/ship.gif');
   transform: translate3d(0px, 0px, 0px);
   animation: slide2 8s  alternate;
   transition: transform 8s ease-in-out;
  
 }
-
+.ShortNotes-carousel__item{
+  opacity: .4;
+}
+.ShortNotes-carousel__item.slick-current.slick-active{
+  opacity: 1;
+}
 
 @keyframes slide {
   from { transform: translate3d(-472px, 0px, 0px); }
