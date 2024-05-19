@@ -1122,6 +1122,60 @@ hr {
   font-size: 1.8rem;
 }
 /* satguru bitak infinity */
+/* meethiBatiya */
+.meethiBatiya{
+  background-color: #fef5f3;
+  padding: 2rem;
+  min-height: 650px;
+}
+.meethiBatiya .conter h2{
+  font-size: 2.5rem;
+  text-align: right;
+  line-height: 1;
+  color: #f7961d;
+}
+.meethiBatiya .conter h1{
+  font-size: 8.5rem;
+  text-align: right;
+  line-height: 1;
+  color: #5fa055;
+}
+.meethiBatiya .conter h3{
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.375rem;
+  text-align: right;
+  color: #727272;
+  font-weight: 100;
+}
+.meethiBatiya .batiya_title_box h3{
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.375rem;
+  color: #727272;
+  font-weight: 100;
+}
+.meethiBatiya .batiya_title_box p{
+  font-size: 1.2rem;
+  line-height: normal;
+  margin-bottom: 0.375rem;
+  color: #727272;
+  font-weight: 100;
+}
+.meethiBatiya-main .common-hero{
+    margin-bottom: 0;
+}
+.Testimonialmeethi_batiya {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+  minmax(28%, 1fr));
+  grid-gap: 4rem;
+}
+.Testimonialmeethi_batiya .TestimonialSliderItem{
+
+}
+/* meethiBatiya infinity */
 
 /*   events */
 .events {
@@ -2560,6 +2614,31 @@ button.slick-next.slick-arrow svg {
   .raheni-container{
     
   }
+  .raheni-container  p {
+font-size: 1.2rem;
+line-height: normal;
+margin-bottom: 0.375rem;
+color: #6e6e6e;
+}
+
+.raheni-container .text-justify {
+text-align: justify;
+border-right: 1px solid #ddd;
+padding: 0 2rem;
+}
+.raheni-container .text-justify:last-child {
+  border: none;
+}
+.raheni-container .text-justify {
+  text-align: justify;
+}
+.raheni-main .h-s-text{
+  background-color: #fff7f5;
+padding: 1px 8px;
+color: #f25814;
+margin-bottom: 8px;
+line-height: normal;
+}
 /* raheni infinity */
 
 /* google translated dropdown */
@@ -2746,6 +2825,11 @@ body{
   border-color: #FF5076;
 }
 
+.common-read-more{
+    color: #FF5701;
+  font-size: 1.25rem;
+}
+
 /* common title End */
 
 /* Footer  */
@@ -2844,6 +2928,21 @@ body{
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .Testimonialmeethi_batiya {
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+    minmax(50%, 1fr));
+    grid-gap: 1rem;
+  }
+  .meethiBatiya .conter h2,
+  .meethiBatiya .conter h1,
+  .meethiBatiya .conter h3{
+    text-align: center;
+  }
+  .batiya_title_box{
+    text-align: center;
+  }
   .satguruMahimaPost .post{
     width: 90%;
   }
