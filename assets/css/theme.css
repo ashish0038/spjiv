@@ -1551,6 +1551,9 @@ button.slick-next.slick-arrow svg {
 .ShortNotes-carousel__item.slick-current.slick-active{
   opacity: 1;
 }
+.ShortNotes-carousel__item:last-child, .ShortNotes-carousel__item:nth-last-child(2){
+  opacity: 1;
+}
 .ShortNotes-carousel__item .shortnoteImgBox {
   margin: 1rem 0;
   gap: 8px;
@@ -1679,7 +1682,10 @@ button.slick-next.slick-arrow svg {
   font-size: 1.2rem;
   line-height: normal;
 }
-
+.ShortNotes-carousel__item-inner p.text-small {
+  font-size: .8rem;
+  color: #b1bafe;
+}
 .ShortNotes-carousel__item-inner .read-more {
   font-size: 1.2rem;
   color: #f77300;
