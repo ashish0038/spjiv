@@ -19,6 +19,7 @@ $('.eventBox').slick({
     centerMode: false,
     centerPadding: '0px',
     dots: false,
+    autoplay: true,
     infinite: true,
     prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
     nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
@@ -70,7 +71,7 @@ function carousel() {
     nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
     arrows: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     speed: 1100,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -97,6 +98,7 @@ $('.kidsLesson').slick({
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
   speed: 300,
   arrows: true,
+  autoplay: true,
   slidesToShow: 2,
   slidesToScroll: 2,
   responsive: [
@@ -133,6 +135,7 @@ $('.eventsLesson').slick({
   centerMode: false,
   centerPadding: '0px',
   dots: false,
+  autoplay: true,
   infinite: true,
   prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
@@ -180,6 +183,7 @@ $('.TestimonialSlider').slick({
   prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
   speed: 300,
+  autoplay: true,
   arrows: true,
   slidesToShow: 2,
   slidesToScroll: 1,
@@ -219,6 +223,7 @@ $('.satgure-nav').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
+  autoplay: true,
   fade: true,
   asNavFor: '.satgure-for'
 });
