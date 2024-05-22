@@ -402,6 +402,23 @@ hr {
   color: #F77301;
 }
 
+#sliderspjv .slider-video{
+  display: inline-block;
+  min-width: auto;
+  min-height: 104%;
+  width: 50%;
+  height: 761px;
+  background-color: #ff8114;
+}
+.slider-video-box {
+  display: flex;
+  position: relative;
+  background-color: #ff8114;
+  height: 690px;
+  overflow: hidden;
+}
+
+
 /* slider end*/
 
 /* quicklinks */
@@ -1145,6 +1162,9 @@ hr {
   line-height: 1;
   color: #5fa055;
 }
+.meethiBatiya .conter .text-small{
+  font-size: 1.2rem;
+}
 .meethiBatiya .conter h3{
   font-size: 1.5rem;
   line-height: 1;
@@ -1175,7 +1195,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fill,
   minmax(28%, 1fr));
-  grid-gap: 4rem;
+  grid-gap: 2rem;
 }
 .Testimonialmeethi_batiya .TestimonialSliderItem{
 
@@ -2639,6 +2659,13 @@ button.slick-next.slick-arrow svg {
 .sahitya-section .podcast-entry .text .btn-download svg{
   margin-left: 1rem;
 }
+.sahiyogita_list{
+  font-size: 1.2rem;
+  padding: 0;
+}
+.sahiyogita_list li{
+  padding: .5rem 0;
+}
 /* sahitya end */
 
 
@@ -2966,6 +2993,12 @@ body{
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .slider-video-box{
+    height: 376px;
+  }
+  #sliderspjv .slider-video{
+    height: 410px;
+  }
   .Testimonialmeethi_batiya {
     margin: 4rem 0;
     display: grid;
