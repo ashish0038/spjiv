@@ -445,8 +445,10 @@ leaves.init();
 leaves.render();
 
 $('.count').each(function () {
+  totalReview = document.getElementsByClassName('TestimonialSliderItem').length;
+  console.log(totalReview);
   $(this).prop('Counter',0).animate({
-      Counter: $(this).text()
+      Counter: totalReview
   }, {
       duration: 4000,
       easing: 'swing',
